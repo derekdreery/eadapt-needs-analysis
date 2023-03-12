@@ -1,0 +1,39 @@
+{
+  "includeTerms": [
+    "lymphoma",
+    "lymphomas",
+    "hodgkin*",
+    "symmers",
+    "lymphosarcoma",
+    "sezary",
+    "malig* lymph*",
+    "reticulum-cell sarcoma",
+    "lymphogranuloma malignant",
+    "reticulosarcoma",
+    "reticulosis",
+    "microglioma",
+    "mycosis fungoids",
+    "maltoma",
+    "cd30-positive"
+  ],
+  "excludeTerms": [
+    "brother had",
+    "eczema",
+    "suspected",
+    "fh*",
+    "benign",
+    "lymph node metastases",
+    "leukemia",
+    "lymphogranuloma venereum",
+    "secondary and unspec*",
+    "leukaemia",
+    "haemopoietic",
+    "'malignant reticuloendotheliosis'",
+    "lymphomatoid papulosis"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": null,
+  "createdOn": "2020-07-20T12:15:27.914Z",
+  "lastUpdated": "2020-07-20T12:15:27.914Z"
+}

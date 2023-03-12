@@ -1,0 +1,26 @@
+{
+  "includeTerms": [
+    "almogran",
+    "almotriptan",
+    "eletriptan",
+    "frovatriptan",
+    "imigran",
+    "maxalt",
+    "migard",
+    "migraitan",
+    "migraleve",
+    "naramig",
+    "naratriptan",
+    "relpax",
+    "rizatriptan",
+    "sumatriptan",
+    "zolmitriptan",
+    "zomig"
+  ],
+  "excludeTerms": [],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": null,
+  "createdOn": "2022-07-10T18:24:44.738022982Z",
+  "lastUpdated": "2022-07-10T18:24:44.738023449Z"
+}

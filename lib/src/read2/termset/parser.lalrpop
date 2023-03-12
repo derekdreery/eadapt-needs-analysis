@@ -1,0 +1,53 @@
+use crate::read2::termset::{TermFilterTok, TermFilter, Term};
+use anyhow::Error;
+
+grammar<'input>(input: &'input str);
+
+pub(crate) TermFilter: TermFilter<'input> = " "? <TermFilterInner> " "?;
+
+TermFilterInner: TermFilter<'input> = {
+    <tf:TermFilterInner> " " <t:Term> => {
+        tf.push(t)
+    },
+    <t:Term> => {
+        TermFilter::new().push(t)
+    }
+}
+
+Term: Term<'input> = {
+    <TermLiteral>,
+    <TermAsterisk>
+}
+
+
+// A term ending with an asterisk (there shouldn't be another straight away)
+TermLiteral: Term<'input> = {
+    <t:TermAsterisk> <l:Literal> => {
+        t.push_literal(l)
+    },
+    <Literal> => {
+        Term::new().push_literal(<>)
+    }
+}
+
+TermAsterisk: Term<'input> = {
+    <t:TermLiteral> "*" => {
+        t.push_asterisk()
+    },
+    "*" => {
+        Term::new().push_asterisk()
+    }
+}
+
+extern {
+    type Location = usize;
+    type Error = Error;
+
+    enum TermFilterTok<'input> {
+
+        " " => TermFilterTok::Whitespace,
+        Literal => TermFilterTok::Literal(<&'input str>),
+        "*" => TermFilterTok::Asterisk,
+        Error => TermFilterTok::Error,
+    }
+}

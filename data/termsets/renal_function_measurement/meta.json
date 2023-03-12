@@ -1,0 +1,31 @@
+{
+  "includeTerms": [
+    "glomerular filtration rate",
+    "kidney function",
+    "renal function test*",
+    "creatinine clearance-glom filt *normal",
+    "phosphate tubular reabsorption rate",
+    "estimated creatinine clearance",
+    "recovery of renal function",
+    "creatinine clearance test",
+    "creatinine clearance-glom filt",
+    "deteriorating renal function",
+    "urate clearance test",
+    "water deprivation test",
+    "amylase clearance",
+    "differential renal function",
+    "ammonium chloride acidification test",
+    "renal function monitoring",
+    "creatinine clearance",
+    "tubular reabsorption renal"
+  ],
+  "excludeTerms": [
+    "concomitantly score",
+    "warning stage",
+    "chronic kidney disease with glomerular filtration rate category"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2023-02-17T10:01:43.578Z",
+  "lastUpdated": "2023-02-17T10:01:43.578Z"
+}

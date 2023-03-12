@@ -1,0 +1,42 @@
+{
+  "includeTerms": [
+    "thyroid function",
+    "serum t3",
+    "serum t4",
+    "tsh level",
+    "serum thyroglobulin",
+    "plasma t4 level",
+    "thyroid abnormal",
+    "t3 uptake",
+    "trh level",
+    "thyroxine concentration",
+    "free thyroxine",
+    "free t3 level",
+    "free t4 level",
+    "thyroid hormone tests",
+    "thyrotropin releasing hormone (trh) stimulation test",
+    "trh hormone",
+    "t3 suppression",
+    "thyroxine binding globulin",
+    "tsh - thyroid stim. hormone",
+    "euthyroid",
+    "pbi - protein bound iodine estimation",
+    "thyroid horm tests borderline",
+    "tsh thyroid stim hormone",
+    "protein bound iodine estimation"
+  ],
+  "excludeTerms": [
+    "neonatal disorders",
+    "tsh receptor antibody level",
+    "tsh binding site inhibitor globulin level",
+    "refer for"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Dodd (dodj)",
+    "email": "richard.o.dodd@gmail.com"
+  },
+  "createdOn": "2023-02-16T22:04:41.696Z",
+  "lastUpdated": "2023-02-16T22:25:09.805Z"
+}

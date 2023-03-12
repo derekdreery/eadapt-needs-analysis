@@ -1,0 +1,30 @@
+{
+  "includeTerms": [
+    "camcolit",
+    "li-liquid",
+    "liskonum",
+    "litarex",
+    "lithium",
+    "lithonate",
+    "phasal",
+    "priadel"
+  ],
+  "excludeTerms": [
+    "stopped",
+    "annual review",
+    "advice",
+    "monitoring",
+    "nephrotoxicity",
+    "level",
+    "patient information",
+    "concentration",
+    "urine",
+    "lithium succinate",
+    "record book"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": null,
+  "createdOn": "2022-07-10T21:34:06.081173400Z",
+  "lastUpdated": "2022-07-10T21:34:06.081174700Z"
+}

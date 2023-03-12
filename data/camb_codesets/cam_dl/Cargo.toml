@@ -1,0 +1,16 @@
+[package]
+name = "cam_dl"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+qu = "0.3.1"
+regex = "1.5.4"
+structopt = "0.3.25"
+url = "2.2.2"
+eadapt-needs-analysis = { path = "../../../lib" }
+csv = "1.1.6"
+reqwest = { version = "0.11.7", features = ["blocking"] }
+zip = "0.5.13"
